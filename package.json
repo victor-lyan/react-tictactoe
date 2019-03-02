@@ -1,5 +1,6 @@
 {
   "name": "react-tictactoe",
+  "homepage": "https://victor-lyan.github.io/react-tictactoe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,8 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
